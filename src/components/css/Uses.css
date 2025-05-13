@@ -1,0 +1,45 @@
+.uses-wrapper {
+  background: linear-gradient(to right, #f7f9fc, #d9eaff);
+  min-height: 100vh;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.uses-section {
+  background-color: #ffffff;
+  border: 1px solid #dee2e6;
+  border-left: 5px solid #17a2b8;
+  border-radius: 8px;
+  padding: 20px;
+  transition: box-shadow 0.3s ease;
+}
+
+.uses-section:hover {
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+}
+
+.uses-title {
+  font-size: 1.3rem;
+  font-weight: 600;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.uses-content {
+  font-size: 1.1rem;
+  color: #555;
+  line-height: 1.75;
+}
+
+header h1 {
+  color: #222;
+}
+
+@media (max-width: 768px) {
+  .uses-title {
+    font-size: 1.15rem;
+  }
+
+  .uses-content {
+    font-size: 1rem;
+  }
+}

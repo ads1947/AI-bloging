@@ -1,0 +1,45 @@
+.advantages-wrapper {
+  background: linear-gradient(to right, #f7f9fb, #eef4ff);
+  min-height: 100vh;
+  padding-top: 70px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.advantage-section {
+  background-color: #ffffff;
+  border: 1px solid #dee2e6;
+  border-left: 5px solid #007bff;
+  border-radius: 6px;
+  transition: box-shadow 0.3s ease;
+}
+
+.advantage-section:hover {
+  box-shadow: 0 0 12px rgba(0, 0, 0, 0.08);
+}
+
+.adv-title {
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: #222;
+  margin-bottom: 10px;
+}
+
+.adv-content {
+  font-size: 1.05rem;
+  color: #555;
+  line-height: 1.7;
+}
+
+header h1 {
+  color: #222;
+}
+
+@media (max-width: 768px) {
+  .adv-title {
+    font-size: 1.15rem;
+  }
+
+  .adv-content {
+    font-size: 1rem;
+  }
+}

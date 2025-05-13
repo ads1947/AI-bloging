@@ -1,0 +1,139 @@
+/* Footer Container */
+.footer {
+  background-color: #343a40;
+  color: white;
+  padding: 50px 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 30px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* Footer Sections */
+.footer-section {
+  flex: 1;
+  min-width: 250px;
+}
+
+.footer-logo-text {
+  font-size: 2rem;
+  font-weight: 700;
+  color: #17a2b8;
+  margin-bottom: 10px;
+}
+
+.footer-description {
+  font-size: 1rem;
+  line-height: 1.5;
+  color: #ddd;
+}
+
+.footer-heading {
+  font-size: 1.2rem;
+  font-weight: 600;
+  margin-bottom: 10px;
+  color: #f8f9fa;
+}
+
+/* Footer Links */
+.footer-links ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.footer-link {
+  text-decoration: none;
+  color: #ddd;
+  font-size: 1rem;
+  display: block;
+  margin-bottom: 8px;
+}
+
+.footer-link:hover {
+  color: #17a2b8;
+}
+
+/* Social Media */
+.social-icons {
+  display: flex;
+  gap: 15px;
+  margin-top: 10px;
+}
+
+.social-icon {
+  text-decoration: none;
+  color: #ddd;
+  font-size: 1.2rem;
+  padding: 5px 10px;
+  background-color: #17a2b8;
+  border-radius: 50%;
+  transition: background-color 0.3s ease;
+}
+
+.social-icon:hover {
+  background-color: #0056b3;
+  color: white;
+}
+
+/* Newsletter */
+.newsletter-form {
+  display: flex;
+  gap: 10px;
+}
+
+.newsletter-input {
+  padding: 10px;
+  font-size: 1rem;
+  border-radius: 5px;
+  border: none;
+  width: 70%;
+}
+
+.newsletter-btn {
+  padding: 10px 20px;
+  background-color: #17a2b8;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.newsletter-btn:hover {
+  background-color: #0056b3;
+}
+
+/* Footer Bottom */
+.footer-bottom {
+  text-align: center;
+  padding-top: 20px;
+  font-size: 0.9rem;
+  color: #ddd;
+  border-top: 1px solid #444;
+}
+
+.footer-bottom p {
+  margin: 0;
+}
+
+/* Mobile Responsiveness */
+@media (max-width: 768px) {
+  .footer-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .footer-newsletter form {
+    flex-direction: column;
+  }
+
+  .newsletter-input {
+    width: 100%;
+  }
+}
